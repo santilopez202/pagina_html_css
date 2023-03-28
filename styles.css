@@ -1,0 +1,56 @@
+.header{
+  border-top: dotted gray;
+  border-bottom: dotted gray;
+}
+
+hr.style6 {
+  background-color: #fff;
+  border-left: 3px dashed #8c8b8b;
+  height: 600px;
+  transform: rotate(0deg);
+}
+hr.style7 {
+  background-color: #fff;
+  border-top: 3px dashed #8c8b8b;   
+}
+          
+body {
+  border: 30px solid rgb(10, 186, 230);
+  border-top: 30px solid rgb(10, 186, 230); /* Borde superior */
+  border-bottom: 30px solid rgb(10, 186, 230); /* Borde inferior */
+}
+h1 {
+  color: green;
+}
+
+h2{
+  color: blue;
+}
+
+h3{
+  color: orange;
+}
+#mi-titulo {
+  font-family: 'Open Sans', Times;
+}
+#mi-titulo1 {
+  font-family: 'Open Sans', Georgia;
+}
+#mi-titulo2 {
+  font-family: 'Open Sans',Arial ;
+}
+element.style {
+  margin-top: -2%;
+}
+#elemento {
+  opacity: 0.5; 
+  color: #888;
+}
+#elemento1{
+  opacity: 1;
+  color: gray;
+}
+#elemento2{
+  opacity: 0.8;
+  color: gray;
+}

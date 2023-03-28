@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejillas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <style>
+        div.orange{
+            background-color: orange;
+            color: white;
+        }
+        div.green{
+            background-color: green;
+            color: black;
+        }
+        div.black{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+
+    <div class="row">
+        <div class="col-3">
+            <img src="../programacion/luna.jpg" width="100%">
+        </div>
+        <div class="col-6">
+            <img src="../programacion/luna.jpg" width="100%">
+        </div>
+        <div class="col-3">
+            <img src="../programacion/luna.jpg" width="100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 orange" >texto 1</div>
+        <div class="col-4 green" >texto 2</div>
+        <div class="col-2 black" ></div>
+        <div class="col-2 green" >texto 3</div>
+        <div class="col-1 black" ></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2"><img src="../programacion/natur.jpg"></div>
+        <div class="col-2"></div>
+        <div class="col-3"><img src="../programacion/natur.jpg"></div>
+        <div class="col-1"><img src="../programacion/natur.jpg"></div>
+        <div class="col-1 black"></div>
+        <div class="col-1 black"></div>
+    </div>
+
+    <div class="container">
+        <img src="../programacion/luna.jpg" alt="luna" width="100%">
+    </div>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../programacion/sol.jpg" class="d-block w-100" alt="Sol" width="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="../programacion/panda.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../programacion/natur.jpg" class="d-block w-100" alt="Natuzaleza" width="100%">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+</body>
+</html>
