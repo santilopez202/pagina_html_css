@@ -21,7 +21,7 @@ const myInfolenguajes={
 function CurriculumLenguajes(props){
     return(
       <div>
-        <Languajes
+        <Lenguajes
           lenguajes={props.lenguajes}
           Español={props.Español}
           Ingles={props.Ingles}
@@ -34,9 +34,9 @@ function OfMainLenguajes(){
     return(
         <div>
             <CurriculumLenguajes
-            lenguajes={myInfoLenguajes.lenguajes}
-            Español={myInfoLanguages.Español}
-            Ingles={myInfoLanguages.Ingles}
+            lenguajes={myInfolenguajes.lenguajes}
+            Español={myInfolenguajes.Español}
+            Ingles={myInfolenguajes.Ingles}
             />
         </div>
     );

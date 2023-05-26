@@ -27,8 +27,8 @@ function CurriculumTitulos(props) {
             <Titulos
             titles={props.titles}
             degree1={props.degree1}
-            colegio={props.colegio}
-            fecha={props.fecha}
+            school1={props.school1}
+            date={props.date}
             />
         </div>
     );
@@ -40,8 +40,8 @@ function OfMainTitulos(){
             <CurriculumTitulos
             titulos={myTitulos.titulos}
             degree1={myTitulos.degree1}
-            colegio={myTitulos.colegio}
-            fecha={myTitulos.fecha}
+            school1={myTitulos.school1}
+            date={myTitulos.date}
             />
         </div>
     );

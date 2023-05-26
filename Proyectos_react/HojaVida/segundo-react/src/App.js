@@ -1,14 +1,14 @@
 
 import './App.css';
-import miCara from './components/imagenes/WhatsApp Image 2023-05-22 at 22.24.10.jpeg';
-import OfMain from "./components/body";
-import OfMainAboutMeDes from "./components/bodyAboutMeDes";
-import logo from './components/imagenes/tecnologia.png';
-import OfMainTitles from './components/bodyMyTitles';
-import OfMainWorkExperience from './components/bodyExperiencesWorks';
-import OfMainHabilities from './components/bodyHabilities';
-import OfMainLenguages from './components/bodyLenguages';
-import OfMainFormulario from './components/bodyFormulario';
+import miCara from './componentes/imagenes/WhatsApp Image 2023-05-22 at 22.24.10.jpeg';
+import OfMain from "./componentes/cuerpo";
+import OfMainAcerca_de_Mi from "./componentes/acerca_de_mi";
+import logo from './componentes/imagenes/tecnologia.png';
+import OfMainTitulos from './componentes/titulos';
+import OfMainExperienciaLaboral from './componentes/experiencia_laboral';
+import OfMainHabilidades from './componentes/habilidades';
+import OfMainLenguajes from './componentes/lenguajes';
+import OfMainFormulario from './componentes/formulario';
 
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
               <br/>
               <OfMainTitulos/>
               <br/>
-              <fMainExperienciaLaboral/>
+              <OfMainExperienciaLaboral/>
               <br/>
               <OfMainHabilidades/>
               <br/>

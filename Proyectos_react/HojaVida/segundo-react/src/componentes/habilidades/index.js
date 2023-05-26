@@ -8,7 +8,7 @@ function Habilidades(props){
         <ul>
           <li><p>{props.trabajoEnGrupo}</p></li>
           <li><p>{props.Responsabilidad}</p></li>
-          <li><p>{props.Colaboracion}</p></li>
+          <li><p>{props.Compañerismo}</p></li>
         </ul>
     </div>
   );
@@ -18,7 +18,7 @@ const myInfoHabilidades={
   Habilidades:'Habilidades',
   trabajoEnGrupo:'Trabajo en grupo',
   Responsabilidad:'Responsabilidad',
-  Colaboracion:'Colaboración'
+  Compañerismo:'Compañerismo'
 }
 
 function CurriculumHabilidades(props){
@@ -28,7 +28,7 @@ function CurriculumHabilidades(props){
         Habilidades={props.Habilidades}
         trabajoEnGrupo={props.trabajoEnGrupo}
         Responsabilidad={props.Responsabilidad}
-        Colaboracion={props.Colaboracion}
+        Compañerismo={props.Compañerismo}
         />
       </div>
     );
@@ -41,7 +41,7 @@ function OfMainHabilidades(){
       Habilidades={myInfoHabilidades.Habilidades}
       Responsabilidad={myInfoHabilidades.Responsabilidad}
       trabajoEnGrupo={myInfoHabilidades.trabajoEnGrupo}
-      Colaboracion={myInfoHabilidades.Colaboracion}
+      Compañerismo={myInfoHabilidades.Compañerismo}
       />
     </div>
   );
